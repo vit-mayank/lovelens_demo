@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LoveLens Wedding Photography | Kathmandu</title>
+<meta name="description" content="Wedding photography in Kathmandu, Nepal. Explore the portfolio and send an enquiry about your date.">
+<meta name="theme-color" content="#4a1942">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="wordmark" href="#home">LoveLens <span>Wedding Photography</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+    <ul id="menu" class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="menu-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<!-- HERO. Replace assets/images/hero-wedding.svg with a real photo (about 1600x1000 JPG/WebP). Copy is proposed demo copy. -->
+<section id="home" class="hero">
+  <img class="hero-img" src="assets/images/hero-wedding.png" alt="" width="1600" height="1000" fetchpriority="high">
+  <div class="hero-inner">
+    <p class="eyebrow">Kathmandu · Wedding Photography</p>
+    <h1>Your Story, <em>Beautifully</em> Told.</h1>
+    <p class="lead">Every glance, every embrace, every once-in-a-lifetime moment, captured with care.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#enquiry">Enquire About Your Date</a>
+      <a class="btn btn-ghost" href="#portfolio">Explore Our Work</a>
+    </div>
+  </div>
+  <svg class="rings" viewBox="0 0 120 70" aria-hidden="true" focusable="false"><circle cx="45" cy="35" r="26"/><circle cx="75" cy="35" r="26"/></svg>
+</section>
+
+<!-- PORTFOLIO. Gallery items and categories are configured in js/main.js (GALLERY, CATEGORIES). -->
+<section id="portfolio" class="section portfolio">
+  <div class="wrap">
+    <p class="eyebrow dark">Portfolio</p>
+    <h2>Moments That Stay With You</h2>
+    <p class="section-lead">Some days pass quickly. Photographs let you return to the small, quiet moments inside them.</p>
+    <div class="filters" role="group" aria-label="Filter gallery" id="filters"></div>
+    <ul class="gallery" id="gallery"></ul>
+  </div>
+</section>
+
+<!-- ABOUT. Neutral copy; owner to personalise. Replace about-photographer.svg with a real photo of the photographer/team. -->
+<section id="about" class="section about">
+  <div class="wrap about-grid">
+    <figure class="about-fig"><img src="assets/images/about-photographer.webp" alt="Placeholder portrait: replace with a photograph of the LoveLens photographer" width="800" height="1000" loading="lazy"></figure>
+    <div>
+      <p class="eyebrow dark">About</p>
+      <h2>Every Love Story Deserves to Be Remembered</h2>
+      <p>A wedding is made of moments that are easy to miss while they are happening: a shared look before the ceremony, a parent's quiet pride, laughter between the formalities.</p>
+      <p>Photography gives those moments somewhere to live. The aim is simple: to document your day honestly and thoughtfully, so that years from now you can step back into it.</p>
+      <a class="text-link" href="#enquiry">Start a conversation →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES. UNVERIFIED: every card is a proposed offering and must be confirmed (or removed) by LoveLens. No prices. -->
+<section id="services" class="section services">
+  <div class="wrap">
+    <p class="eyebrow">Services</p>
+    <h2>How We Can Help</h2>
+    <div class="svc-grid" id="services-list">
+      <article class="svc svc-a"><img src="assets/images/service-wedding.webp" alt="" width="800" height="600" loading="lazy"><div><h3>Wedding Photography</h3><p>Coverage that follows your day from preparations to celebration.</p><a class="text-link" href="#enquiry" data-event="Wedding">Enquire →</a></div></article>
+      <article class="svc svc-b"><img src="assets/images/service-prewedding.webp" alt="" width="800" height="600" loading="lazy"><div><h3>Pre-Wedding Photography</h3><p>A relaxed session for the two of you, before the big day.</p><a class="text-link" href="#enquiry" data-event="Pre-wedding">Enquire →</a></div></article>
+      <article class="svc svc-c"><img src="assets/images/service-films.webp" alt="" width="800" height="600" loading="lazy"><div><h3>Wedding Films</h3><p>Moving images to sit alongside your photographs.</p><a class="text-link" href="#enquiry" data-event="Wedding">Enquire →</a></div></article>
+      <article class="svc svc-d"><img src="assets/images/service-celebration.webp" alt="" width="800" height="600" loading="lazy"><div><h3>Engagement &amp; Celebrations</h3><p>Photographs for the gatherings that surround a wedding.</p><a class="text-link" href="#enquiry" data-event="Engagement">Enquire →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Let's Talk About <em>Your Day</em></h2>
+    <p>Tell us a little about your plans, and leave the details for us to discuss together.</p>
+    <a class="btn btn-light" href="#enquiry">Send an Enquiry</a>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow dark">Contact</p>
+      <h2 id="enquiry">Enquire About Your Date</h2>
+      <p>Share a few details and we'll take it from there. Only name, phone and a short message are required.</p>
+    </div>
+    <form id="enquiry-form" novalidate>
+      <div class="field"><label for="name">Full name <span aria-hidden="true">*</span></label><input id="name" name="name" autocomplete="name" required placeholder="Your name"><p class="err" id="name-err" role="alert"></p></div>
+      <div class="field"><label for="phone">Phone number <span aria-hidden="true">*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="+977 98XXXXXXXX"><p class="err" id="phone-err" role="alert"></p></div>
+      <div class="field"><label for="email">Email <small>(optional)</small></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com"><p class="err" id="email-err" role="alert"></p></div>
+      <div class="row2">
+        <div class="field"><label for="type">Event type</label>
+          <select id="type" name="type"><option>Wedding</option><option>Pre-wedding</option><option>Engagement</option><option>Celebration</option><option>Other</option></select></div>
+        <div class="field"><label for="date">Event date <small>(optional)</small></label><input id="date" name="date" type="date"></div>
+      </div>
+      <div class="field" id="other-wrap" hidden><label for="other">Please specify</label><input id="other" name="other" placeholder="Tell us the event type"></div>
+      <div class="field"><label for="venue">Venue or location <small>(optional)</small></label><input id="venue" name="venue" placeholder="e.g. city or venue"></div>
+      <div class="field"><label for="message">Message <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5" required placeholder="Tell us about your plans"></textarea><p class="err" id="message-err" role="alert"></p></div>
+      <button class="btn btn-primary" type="submit" id="submit">Send Enquiry</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <a class="wordmark" href="#home">LoveLens <span>Wedding Photography</span></a>
+    <ul><li><a href="#portfolio">Portfolio</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
+    <a href="https://www.instagram.com/lovelens_weddingphotography/" target="_blank" rel="noopener">Instagram ↗</a>
+  </div>
+  <p class="copy">© <span id="year">2026</span> LoveLens Wedding Photography</p>
+</footer>
+
+<dialog id="lightbox" aria-label="Photo viewer">
+  <button class="lb-btn lb-close" aria-label="Close">×</button>
+  <button class="lb-btn lb-prev" aria-label="Previous photo">‹</button>
+  <img id="lb-img" alt="">
+  <button class="lb-btn lb-next" aria-label="Next photo">›</button>
+</dialog>
+<script src="js/main.js"></script>
+</body>
+</html>
